@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- تعريف نوع المستند بأنه HTML5 -->
+<html lang="ar" dir="rtl">
+
+<head>
+    <!-- إعدادات الترميز لدعم اللغة العربية -->
+    <meta charset="UTF-8">
+    <!-- إعدادات التجاوب مع مختلف أحجام الشاشات -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- وصف الموقع لمحركات البحث -->
+    <meta name="description" content="تطبيق عملي لمساق تصميم وإدارة مواقع الإنترنت">
+    <!-- عنوان الصفحة في المتصفح -->
+    <title>مشروع تصميم وإدارة مواقع الإنترنت - Leon</title>
+</head>
+
+<body>
+
+    <!-- بداية قسم الترويسة والقائمة العلوية (Header) -->
+    <header>
+        <h1>مرحباً بكم في موقعنا</h1>
+        <!-- قائمة الروابط الرئيسية -->
+        <nav>
+            <ul>
+                <li><a href="#landing">الرئيسية</a></li>
+                <li><a href="#services">الخدمات</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <!-- نهاية قسم الترويسة -->
+
+    <!-- بداية قسم الواجهة الترحيبية (Landing Section) -->
+    <section id="landing">
+        <h2>أهلاً بك في صفحة الهبوط</h2>
+        <p>هذا التصميم هو تطبيق عملي لمقرر تصميم وإدارة مواقع الإنترنت.</p>
+        <!-- إدراج الصورة المرفقة في الواجب من مجلد الصور -->
+        <img src="images/landing.jpg" alt="صورة جبال مغطاة بالثلوج" width="100%">
+        <hr>
+    </section>
+    <!-- نهاية قسم الواجهة الترحيبية -->
+
+    <!-- بداية قسم الخدمات (Services Section) -->
+    <section id="services">
+        <h2>خدماتنا ومهاراتنا</h2>
+        <!-- قائمة مرتبة بأهم التقنيات المستخدمة -->
+        <ol>
+            <li>بناء هيكلية الصفحات باستخدام HTML5</li>
+            <li>تنسيق وتصميم الواجهات باستخدام CSS3</li>
+            <li>إضافة التفاعل للموقع عبر JavaScript</li>
+        </ol>
+        <hr>
+    </section>
+    <!-- نهاية قسم الخدمات -->
+
+    <!-- بداية قسم التواصل (Contact Section) -->
+    <section id="contact">
+        <h2>تواصل معنا</h2>
+        <form action="#" method="POST">
+            <!-- حقل إدخال الاسم -->
+            <label for="username">الاسم الكامل:</label><br>
+            <input type="text" id="username" name="username" required><br><br>
+
+            <!-- حقل إدخال البريد الإلكتروني -->
+            <label for="email">البريد الإلكتروني:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <!-- زر الإرسال -->
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+    <!-- نهاية قسم التواصل -->
+
+    <!-- بداية تذييل الصفحة (Footer) -->
+    <footer>
+        <hr>
+        <p>جميع الحقوق محفوظة &copy; 2026 - إعداد الطالب أحمد زياد</p>
+    </footer>
+    <!-- نهاية تذييل الصفحة -->
+
+</body>
+</html>
